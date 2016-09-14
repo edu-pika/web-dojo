@@ -9,6 +9,7 @@
   "author": "yasu_ktn_company@hotmail.com",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.15.0",
     "gulp": "^3.9.1"
   }
 }

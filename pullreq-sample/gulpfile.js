@@ -1,5 +1,14 @@
 var gulp = require("gulp");
+var browserSync = require("browser-sync");
 
-gulp.task("default", function() {
-  console.log("ログ出力");
+gulp.task("watch", function() {
+  gulp.watch(["**/*.html"], browserSync.reload);
 });
+
+gulp.task("serve", ["watch"], function() {
+  browserSync.init({
+    server: "./"
+  });
+});
+
+gulp.task("default", ["serve"]);
