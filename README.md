@@ -35,7 +35,7 @@
 
 
 * guｌp
- 1. 「package.json」という名前のファイルをテキストエディタで作成し、「{}」とだけ記載する。
- 2. 「npm install -g gulp」と「npm install --save-dev gulp」を実行してglupのインストールを行う。「gulp -v」でインストールが完了したか確認ができる。
+ 1. コンソール上からpullreq-sampleのフォルダへ移動し、「npm install -g gulp」と「npm install --save-dev gulp」を実行してglupのインストールを行う。「gulp -v」でインストールが完了したか確認ができる。
+ 2. 「npm install browser-sync」でbrowser-syncをインストールしたあと、「gulp」コマンドを実行することで「道場へようこそ」と書かれたwebページが立ち上がる。
 
-    ※参考サイト：https://app.codegrid.net/entry/gulp-1
+    ※参考サイト：http://mae.chab.in/archives/2545
