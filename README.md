@@ -35,7 +35,11 @@
 
 
 * guｌp
- 1. コンソール上からpullreq-sampleのフォルダへ移動し、「npm install -g gulp」と「npm install --save-dev gulp」を実行してglupのインストールを行う。「gulp -v」でインストールが完了したか確認ができる。
- 2. 「npm install browser-sync」でbrowser-syncをインストールしたあと、「gulp」コマンドを実行することで「道場へようこそ」と書かれたwebページが立ち上がる。
+ 1. 「npm install -g gulp」」を実行してglupのインストールを行う。「gulp -v」でインストールが完了したか確認ができる。
 
     ※参考サイト：http://mae.chab.in/archives/2545
+
+# pullreq-sampleの実行方法
+　
+ 1. コンソール上から「pullreq-sample」のフォルダへ移動し、「npm install」を実行する。
+ 2. 1.が完了すると、「pullreq-sample」の配下に「node_modules」というフォルダが作成される。そのまま「glup」を実行すると、「index.html」の内容がブラウザ上に表示される。その場合、「index.html」の内容を書き換えるとリアルタイムでブラウザ上に変更が反映される。
