@@ -4,3 +4,5 @@ var eduPikaViewModel = {
         this.count(this.count() + 1);
     }
 };
+
+ko.applyBindings(eduPikaViewModel);
