@@ -39,6 +39,7 @@
 
     ※参考サイト：http://mae.chab.in/archives/2545
 
+
 # pullreq-sampleの実行方法
 　
  1. コンソール上から「pullreq-sample」のフォルダへ移動し、「npm install」を実行する。
